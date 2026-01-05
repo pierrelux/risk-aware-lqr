@@ -58,7 +58,9 @@ $$\mathbf{V}_{t-1} = \mathbf{A}^\top \mathbf{V}_t \mathbf{A} + \mathbf{Q}_\mu - 
 
 $$\mathbf{K}_{t-1} = -(\mathbf{B}^\top \mathbf{V}_t \mathbf{B} + \mathbf{R})^{-1} \mathbf{B}^\top \mathbf{V}_t \mathbf{A}$$
 
-with terminal condition $\mathbf{V}_N = \mathbf{Q}_\mu$.
+with terminal condition
+
+$$\mathbf{V}_N = \mathbf{Q}_\mu$$
 
 The affine term $\mathbf{l}_t$ accounts for noise mean and skewness:
 
@@ -66,7 +68,9 @@ $$\boldsymbol{\xi}_{t-1} = (\mathbf{A} + \mathbf{B}\mathbf{K}_{t-1})^\top (\bold
 
 $$\mathbf{l}_{t-1} = -(\mathbf{B}^\top \mathbf{V}_t \mathbf{B} + \mathbf{R})^{-1} \mathbf{B}^\top (\boldsymbol{\xi}_t + \mathbf{V}_t \bar{\mathbf{w}})$$
 
-with terminal condition $\boldsymbol{\xi}_N = \mu \mathbf{m}_3$.
+with terminal condition
+
+$$\boldsymbol{\xi}_N = \mu \mathbf{m}_3$$
 
 **Interpretation:**
 
