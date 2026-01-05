@@ -38,7 +38,7 @@ For process noise with innovation $\boldsymbol{\delta}_t = \mathbf{w}_t - \bar{\
 
 - **Covariance**: $\mathbf{W} = \mathbb{E}[\boldsymbol{\delta}_t \boldsymbol{\delta}_t^\top]$
 - **Third moment** (skewness): $\mathbf{m}_3 = 2\mathbf{Q} \mathbb{E}[\boldsymbol{\delta}_t \boldsymbol{\delta}_t^\top \mathbf{Q} \boldsymbol{\delta}_t]$
-- **Fourth moment**: $m_4 = \mathbb{E}\left[\left(\boldsymbol{\delta}_t^\top \mathbf{Q} \boldsymbol{\delta}_t - \operatorname{tr}(\mathbf{Q}\mathbf{W})\right)^2\right]$
+- **Fourth moment**: $m_4 = \mathbb{E}\left[\left(\boldsymbol{\delta}_t^\top \mathbf{Q} \boldsymbol{\delta}_t - \mathrm{tr}(\mathbf{Q}\mathbf{W})\right)^2\right]$
 
 The third moment $\mathbf{m}_3$ captures asymmetry in the noise distribution. For Gaussian noise, $\mathbf{m}_3 = \mathbf{0}$.
 
